@@ -1,0 +1,46 @@
+<!DOCTYPE html
+
+	<head>
+		<meta charset="utf-8">
+		<script language="javascript" type="text/javascript" src="funcion.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Editar Usuario</title>
+	</head>
+	<body>
+
+<h3>Editar Usuario</h3>
+
+<div>
+  <form action="" name="formulario" method="get" onsubmit="validateForm()">
+    <label for="cd">Numero de identificacion</label>
+    <input type="text" id="nid" name="identificacion" placeholder="Identificacion..">
+
+    <label for="Nm">Nombre</label>
+    <input type="text" id="Nm" name="nombre" placeholder="Nombre..">
+	
+    <label for="Rf">Apellidos</label>
+    <input type="text" id="Ap" name="apellidos" placeholder="Apellidos..">
+    
+    <label for="Cag">Cargo</label>
+    <select id="Cag" name="cargo">
+      <option value="administrador">Administrador</option>
+      <option value="vendedor">Vendedor</option>
+    </select>
+
+    <label for="Tel">Tel. Fijo</label>
+    <input type="text" id="Tel" name="tel" placeholder="Tel. Fijo..">
+    
+    <label for="Mov">Movil</label>
+    <input type="text" id="Mov" name="movil" placeholder="Movil..">
+    <label for="Etd">Estado</label>
+    <input type="radio" name="estado" id="Act" value="Activo"> Activo
+    <input type="radio" name="estado" id="Inct" value="Inactivo"> Inactivo
+    
+  
+    <input type="submit" id="sub" name="sub" value="Guardar">
+    <input type="reset" id="btn" name="btn" value="Limpiar">
+  </form>
+</div>
+
+</body>
+</html>

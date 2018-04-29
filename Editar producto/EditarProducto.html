@@ -1,0 +1,47 @@
+<!DOCTYPE html
+
+	<head>
+		<meta charset="utf-8">
+		<script language="javascript" type="text/javascript" src="funcion.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Editar Producto</title>
+	</head>
+	<body>
+
+<h3>Editar Producto</h3>
+
+<div>
+  <form action="" name="formulario" method="get" onsubmit="validateForm()">
+    <label for="cd">Codigo</label>
+    <input type="text" id="cd" name="codigo" placeholder="Codigo..">
+
+    <label for="Nm">Nombre</label>
+    <input type="text" id="Nm" name="nombre" placeholder="Nombre..">
+	
+    <label for="Rf">Referencia</label>
+    <input type="text" id="Rf" name="referencia" placeholder="Referencia..">
+    
+    <label for="Crg">Cargo</label>
+    <input type="text" id="Crg" name="cargo" placeholder="Cargo..">
+    
+    <label for="Catg">Categoria</label>
+    <select id="Catg" name="categoria">
+      <option value="puntilla">Puntilla</option>
+      <option value="martillo">Martillo</option>
+      <option value="tuerca">Tuerca</option>
+    </select>
+    
+    <label for="Dscp">Descripcion</label>
+    <input type="text" id="Dscp" name="descripcion" placeholder="Descripcion..">
+    <label for="Etd">Estado</label>
+    <input type="radio" name="estado" id="Act" value="Activo"> Activo
+    <input type="radio" name="estado" id="Inct" value="Inactivo"> Inactivo
+    
+  
+    <input type="submit" id="sub" name="sub" value="Guardar">
+    <input type="reset" id="btn" name="btn" value="Limpiar">
+  </form>
+</div>
+
+</body>
+</html>
