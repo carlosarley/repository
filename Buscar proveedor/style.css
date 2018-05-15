@@ -1,0 +1,107 @@
+div{
+	background-color: #3CB371;
+	border-radius: 5px;
+	padding: 20px 20PX;
+
+}
+
+thead{
+	width: 100%;
+    padding: 15px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #F5EDEC; 
+    position: center;
+}
+
+
+td, tr {
+	padding: 20;
+}
+
+.tabla #cor {
+	background-color: #A41914;
+	color: white;
+	border: none;
+	padding: 30px
+}
+
+.tabla #arg {
+	background-color: #A46014;
+	color: white;
+	border: none;
+	padding: 30px
+}
+.tabla #tit {
+	background-color: #AFB40C;
+	color: white;
+	border: none;
+	padding: 30px
+}
+.tabla #cem {
+	background-color: #35B40C;
+	color: white;
+	border: none;
+	padding: 30px
+}
+
+.tabla #tes {
+	background-color: #0CB49B;
+	color: white;
+	border: none;
+	padding: 30px
+}
+.tabla #cod {
+	background-color: #0C56B4;
+	color: white;
+	border: none;
+	padding: 30px
+}
+.tabla #gav {
+	background-color: #110CB4;
+	color: white;
+	border: none;
+	padding: 30px
+}
+.tabla #lim {
+	background-color: #740CB4;
+	color: white;
+	border: none;
+	padding: 30px
+}
+.tabla #bla {
+	background-color: #B40C6F;
+	color: white;
+	border: none;
+	padding: 30px
+}
+
+
+.botond{
+	background-color: #456789;
+	color: white;
+	border: none;
+	padding: 16px;
+	font-size: 18.5px; 
+}
+.links #{
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 13px;
+
+}
+.links {
+	background-color: #f9f9f9;
+	width: 185px; 
+	display: none;
+}
+.links # :hover {
+	background-color: #f1f1f1;
+}
+.desplegable:hover .links{
+	display: block;
+}
