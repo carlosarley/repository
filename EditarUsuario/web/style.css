@@ -1,5 +1,4 @@
 {
-    
     margin: 0;
     padding: 0;
     font-family: serif;
@@ -7,7 +6,6 @@
 }
 
 body{
-    text-align: center;
     background: #DEDEDE;
     display: flex;
     min-height: 100vh;
