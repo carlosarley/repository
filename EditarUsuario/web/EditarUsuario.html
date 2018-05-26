@@ -3,21 +3,21 @@
 	<head>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial=1, maximum-scale=1, minimum-scale=1">
-		<script language="javascript" type="text/javascript" src="funcion.js"></script>
+        <script language="javascript" type="text/javascript" src="funcion.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<title>Editar Usuario</title>
 	</head>
 	<body>
 
-<<<<<<< HEAD:Editar usuario/EditarUsuario.html
-  <form action="" name="formulario" method="get" onsubmit="validateForm()">
-    <h3>Editar Usuario</h3><br><br><br>
-=======
+
+  <form action="IngresarDatos" name="formulario" method="get" onsubmit="validateForm()">
+    
+
 <h3>Editar Usuario</h3>
 
 <div>
-  <form action="IngresarDatos" name="formulario" method="get" onsubmit="validateForm()">
->>>>>>> 2536a7bccbb2b19e3089dcd51085a65033d05254:EditarUsuario/web/EditarUsuario.html
+  <form action="IngresarDatos" name="formulario" method="post" >
+
     <label for="cd">Numero de identificacion</label>
     <input type="text" id="nid" name="identificacion" placeholder="Identificacion..">
 
@@ -43,8 +43,9 @@
     <input type="radio" name="estado" id="Inct" value="Inactivo"> Inactivo
     
   
-    <input type="submit" id="sub" name="sub" value="Guardar">
+    <input type="submit" id="sub" name="sub" value="Guardar" onclick="validateForm()">
     <input type="reset" id="btn" name="btn" value="Limpiar">
+    
   </form>
 
 
