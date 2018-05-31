@@ -35,7 +35,7 @@ public class IngresarDatos extends HttpServlet {
             
             String id = request.getParameter("identificacion");
             String nomb = request.getParameter("nombre");
-            String apll = request.getParameter("apellido");
+            String apll = request.getParameter("apellidos");
             String tele = request.getParameter("tel");
             String mov = request.getParameter ("movil");
             
@@ -50,7 +50,7 @@ public class IngresarDatos extends HttpServlet {
             out.println("<body>");
             out.println("<h1>El N.Identifiacion ingresado es: " + id + "</h1>");
             out.println("<h1>El nombre ingresado es: " + nomb + "</h1>");
-            out.println("<h1>La referencia ingresada es: " + apll + "</h1>");
+            out.println("<h1>El apellido ingresado es: " + apll + "</h1>");
             out.println("<h1>El telefono fijo ingresado es: " + tele + "</h1>");
             out.println("<h1>El telefono movil ingresada es: " + mov + "</h1>");
             out.println("<h1>El estado ingresado es: " + est + "</h1>");
